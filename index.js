@@ -9,11 +9,11 @@ const constraints = {
 
 function getConfig(store) {
   const config = {
-    wsServers: "wss://" + "<<address-to-server>>" + ":" + "5066",
-    uri: "123" + "@" + "<<address-to-server>>",
-    authorizationUser: "123",
-    password: "<<password>>", //fetchedConfig.SIPPassword,
-    userAgentString: "webRTC 1.0 <<company-name>>",
+    wsServers: "wss://" + "fsw-dannte.scc24.pl" + ":" + "5066",
+    uri: "388141" + "@" + "fsw-dannte.scc24.pl",
+    authorizationUser: "388141",
+    password: "ba9ec211f21cddc8fc3b495e9b870457", //fetchedConfig.SIPPassword,
+    userAgentString: "webRTC 1.0 systell",
     traceSip: true,
     register: false,
     options: {
